@@ -176,3 +176,9 @@ local
 ####################
 a/static/js/build/*
 a/static/css/*
+
+# ignore files in folder foo
+data/*
+# but keep the folder
+!data/.keep
+!data/winners/.keep
